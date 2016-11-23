@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
-  <runtime name="BungeeCord 1.8-1.10"/>
+  <runtime name="BungeeCord 1.8-1.11"/>
   <installed facet="java" version="1.8"/>
   <installed facet="bungee.lib" version="1.0"/>
 </faceted-project>

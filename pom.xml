@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>mce-bungee-tools-1.10</module>
+  	<module>mce-bungee-tools-1.11</module>
   </modules>
 </project>
