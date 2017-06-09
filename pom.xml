@@ -7,5 +7,6 @@
   <modules>
   	<module>mce-bungee-tools-1.10</module>
   	<module>mce-bungee-tools-1.11</module>
+  	<module>mce-bungee-tools-1.12</module>
   </modules>
 </project>

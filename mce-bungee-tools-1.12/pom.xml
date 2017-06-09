@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.xworlds</groupId>
+  <artifactId>mce-bungee-tools-1.12</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <bungee.version>1.12-SNAPSHOT</bungee.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>net.md-5</groupId>
+      <artifactId>bungeecord-bootstrap</artifactId>
+      <version>${bungee.version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>oss-sonatype</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </repository>
+    <repository>
+      <id>mce-repo</id>
+      <url>http://nexus.xworlds.eu/nexus/content/groups/mce</url>
+    </repository>
+  </repositories>
+</project>
